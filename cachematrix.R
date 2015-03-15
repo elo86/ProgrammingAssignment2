@@ -1,4 +1,5 @@
-## [Put comments here that describe what your functions do]
+## makeCacheMatrix will form the matrix to be cached
+## cacheSolve will invert the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
