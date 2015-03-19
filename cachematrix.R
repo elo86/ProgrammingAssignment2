@@ -7,8 +7,7 @@ makeCacheMatrix <- function(x = matrix()) {
      set <- function (y) { ##Initiate function to set cached matrix
           x <<- y ##Set the value of x in the parent env
           invMatrix <<- NULL ##Set the invMatrix to NULL in the parent env
-          print(invMatrix)
-     }
+          }
      get <- function() x ##Return the matrix x in the evaluating env
      setInv <- function(inv) invMatrix <<- inv ##Set invMatrix in parent env to the inverse
      getInv <- function() invMatrix ##Return the invMatrix in the evaluating env
